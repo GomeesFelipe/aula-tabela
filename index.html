@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        h1 {
+            background-color: blanchedalmond;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        th,td {
+            border: 1px, solid;
+            text-align: center;
+        }
+        .total {
+            background-color: rgb(147, 120, 85);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Produtos</th>
+                <th>Quantidade</th>
+                <th>Preços</th>
+                <th>Black Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Feijão</td>
+                <td>2</td>
+                <td>5$</td>
+                <td rowspan="2
+                ">Sim</td>
+            </tr>
+            <tr>
+                <td>Miojo</td>
+                <td>5</td>
+                <td>10$</td>
+                
+            </tr>
+            <tr>
+                <td>Balinha de canela</td>
+                <td>2</td>
+                <td>5$</td>
+                <td>Não</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="total">Total</td>
+                <td>30$</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
